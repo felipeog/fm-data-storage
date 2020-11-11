@@ -34,10 +34,7 @@ strong {
 html {
   font-size: var(--font-size);
   font-family: var(--font-family);
-  background-image: url(../img/bg-desktop.png);
-  background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom center;
   background-color: var(--very-dark-blue);
 }
 
@@ -140,6 +137,12 @@ html {
 }
 
 @media screen and (min-width: 960px) {
+  html {
+    background-image: url(../img/bg-desktop.png);
+    background-size: contain;
+    background-position: bottom center;
+  }
+
   .container {
     display: flex;
     align-items: flex-end;
@@ -182,6 +185,12 @@ html {
 }
 
 @media screen and (max-width: 959px) {
+  html {
+    background-image: url(../img/bg-mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
+
   .actions {
     margin-bottom: 1rem;
     padding: 2.6rem 2.4rem;
