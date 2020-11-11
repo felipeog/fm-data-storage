@@ -28,6 +28,7 @@ strong {
   --grayish-blue: hsl(229, 7%, 55%);
   --dark-blue: hsl(228, 56%, 26%);
   --very-dark-blue: hsl(229, 57%, 11%);
+  --box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
 }
 
 /* base */
@@ -52,6 +53,7 @@ html {
   background: var(--dark-blue);
   border-radius: 0.6rem;
   border-top-right-radius: 8rem;
+  box-shadow: var(--box-shadow);
 }
 
 .actions__logo {
@@ -78,6 +80,7 @@ html {
   border-radius: 0.6rem;
   color: #fff;
   position: relative;
+  box-shadow: var(--box-shadow);
 }
 
 .usage__text {
