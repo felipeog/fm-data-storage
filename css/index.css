@@ -48,17 +48,11 @@ html {
   min-height: 100vh;
 }
 
-/* .container {
-  display: flex;
-  align-items: flex-end;
-} */
-
 .actions {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   background: var(--dark-blue);
-  padding: 2.6rem 3rem;
   border-radius: 0.6rem;
   border-top-right-radius: 8rem;
 }
@@ -84,7 +78,6 @@ html {
 
 .usage {
   background: var(--dark-blue);
-  padding: 2.6rem 3rem;
   border-radius: 0.6rem;
   color: #fff;
   position: relative;
@@ -155,6 +148,7 @@ html {
   .actions {
     min-width: 24rem;
     margin-right: 2rem;
+    padding: 2.6rem 3rem;
   }
 
   .actions__item {
@@ -168,6 +162,7 @@ html {
 
   .usage {
     min-width: 34rem;
+    padding: 2.6rem 3rem;
   }
 
   .popup {
@@ -189,6 +184,11 @@ html {
 @media screen and (max-width: 929px) {
   .actions {
     margin-bottom: 1rem;
+    padding: 2.6rem 2.4rem;
+  }
+
+  .usage {
+    padding: 2.6rem 2.4rem;
   }
 
   .popup {
