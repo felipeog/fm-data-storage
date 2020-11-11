@@ -181,7 +181,7 @@ html {
   }
 }
 
-@media screen and (max-width: 929px) {
+@media screen and (max-width: 959px) {
   .actions {
     margin-bottom: 1rem;
     padding: 2.6rem 2.4rem;
